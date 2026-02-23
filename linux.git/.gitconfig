@@ -1,0 +1,17 @@
+[user]
+	name = Aryan Mohanty
+	email = aryan.mohanty@mercedes-benz.com
+	signingkey = /Users/ARMOHAN/.ssh/git-signing.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /Users/ARMOHAN/.ssh/allowed_signers
+[color]
+	ui = auto
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f

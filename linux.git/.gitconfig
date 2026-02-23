@@ -1,7 +1,7 @@
 [user]
 	name = Aryan Mohanty
 	email = aryan.mohanty@mercedes-benz.com
-	signingkey = /Users/ARMOHAN/.ssh/git-signing.pub
+	signingkey = /home/armohan/.ssh/git-signing.pub
 [gpg]
 	format = ssh
 [commit]

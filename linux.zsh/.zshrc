@@ -1,3 +1,9 @@
+# Zsh History
+HISTFILE=~/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
+setopt INC_APPEND_HISTORY SHARE_HISTORY
+
 # Path to Antidote
 source /home/armohan/.antidote/antidote.zsh
 

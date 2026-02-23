@@ -1,0 +1,45 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /Users/ARMOHAN/Library/Application Support/com.mitchellh.ghostty/config
+
+# ---------------------------
+# Appearance
+# ---------------------------
+
+# Font Appearance
+font-size = 14
+font-family = "IosevkaTerm NFM Medium"
+font-family-bold = "IosevkaTerm NFM Bold"
+font-family-italic = "IosevkaTerm NFM Italic"
+font-family-bold-italic = "IosevkaTerm NFM Bold Italic"
+
+# Window appearance
+theme = "Tinacious Design Dark"
+background-opacity = 0.90
+background-blur = true
+window-padding-x = 12
+window-padding-y = 10
+
+# Cursor style
+shell-integration-features = no-cursor
+cursor-style = "bar"
+cursor-style-blink = false
+
+# ---------------------------
+# Terminal Behavior
+# ---------------------------
+
+# Scrollback
+scrollback-limit = 100000000
+
+# Allow clipboard access
+clipboard-read = allow
+clipboard-paste-protection = false
+
+# ---------------------------
+# Keybindings
+# ---------------------------
+keybind = super+a=unbind

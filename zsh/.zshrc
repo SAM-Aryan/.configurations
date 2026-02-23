@@ -18,6 +18,7 @@ fi
 
 # Android SDK
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export ANDROID_NDK=$ANDROID_SDK_ROOT/ndk/latest/
 export ANDROID_HOME=$ANDROID_SDK_ROOT
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH

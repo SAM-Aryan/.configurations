@@ -1,7 +1,7 @@
 [user]
 	name = Aryan Mohanty
 	email = aryan.mohanty@mercedes-benz.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDbAGWGRmrli1DdV3OSPvJdsf/X0w78j0DBrt74MxJ9V aryan.mohanty@mercedes-benz.com
+	signingkey = /Users/ARMOHAN/.ssh/github-mercedes.pub
 [gpg]
 	format = ssh
 [commit]

@@ -1,7 +1,7 @@
 [user]
 	name = Aryan Mohanty
 	email = aryan.mohanty@mercedes-benz.com
-	signingkey = /home/armohan/.ssh/git-signing.pub
+	signingkey = /home/armohan/.ssh/git-key.pub
 [gpg]
 	format = ssh
 [commit]
@@ -15,3 +15,5 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[credential]
+	helper = store

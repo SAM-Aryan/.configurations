@@ -82,20 +82,29 @@ return {
         },
 
         ["<D-a>"] = { "ggVG", desc = "Select all" },
+        ["<C-a>"] = { "ggVG", desc = "Select all" },
+        ["<D-c>"] = { '"+y', desc = "Copy to clipboard" },
+        ["<C-c>"] = { '"+y', desc = "Copy to clipboard" },
         ["<D-v>"] = { '"+p', desc = "Paste from clipboard" },
+        ["<C-v>"] = { '"+p', desc = "Paste from clipboard" },
       },
 
       -- Visual Mode
       v = {
         ["<D-a>"] = { "ggVG", desc = "Select all" },
+        ["<C-a>"] = { "ggVG", desc = "Select all" },
         ["<D-c>"] = { '"+y', desc = "Copy to clipboard" },
+        ["<C-c>"] = { "+y", desc = "Copy to clipboard" },
         ["<D-v>"] = { '"+p', desc = "Paste over selection" },
+        ["<C-v>"] = { '"+p', desc = "Paste over selection" },
       },
 
       -- Insert Mode
       i = {
         ["<D-a>"] = { "<Esc>ggVG", desc = "Select all" },
+        ["<C-a>"] = { "<Esc>ggVG", desc = "Select all" },
         ["<D-v>"] = { "<C-r>+", desc = "Paste from clipboard" },
+        ["<C-v>"] = { "<C-r>+", desc = "Paste from clipboard" },
       },
     },
   },

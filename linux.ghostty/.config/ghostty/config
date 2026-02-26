@@ -18,7 +18,7 @@ font-family-bold-italic = "IosevkaTerm NFM Bold Italic"
 
 # Window appearance
 theme = "Tinacious Design Dark"
-background-opacity = 0.90
+background-opacity = 1
 background-blur = true
 window-padding-x = 12
 window-padding-y = 10
@@ -43,3 +43,5 @@ clipboard-paste-protection = false
 # Keybindings
 # ---------------------------
 keybind = super+a=unbind
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard

@@ -7,7 +7,7 @@
 [commit]
 	gpgsign = true
 [gpg "ssh"]
-	allowedSignersFile = /Users/ARMOHAN/.ssh/allowed_signers
+	allowedSignersFile = /home/armohan/.ssh/allowed_signers
 [color]
 	ui = auto
 [filter "lfs"]
